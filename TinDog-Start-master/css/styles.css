@@ -1,0 +1,145 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+
+}
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;   
+}
+h2{
+    color:white ;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+
+p{
+        color: gray;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+/* Navebar Brand */
+.navbar-brand{
+ font-family: "Ubuntu"; 
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+/* Navbar Iten */
+.nav-item{
+    padding: 0 12px;
+}
+
+/* Navbar link */
+.nav-link{
+    font-size: 1.2rem;
+}
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Tittle Image */
+.tittle-image{
+    width:23%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 53%;
+
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1; 
+}
+.feature-box{
+    padding: 4.5%;
+}
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+color: #ff4c68;
+}
+
+/* Testonomial section */
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+}
+.testinomials-image{
+    margin: 10px;
+    border-radius: 100%;
+    width: 10%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press section */
+
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+
+    padding: 3% 2%;
+}
+#pricing-heading{
+    color: black;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .tittle-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon{
+    margin:15px 10px;
+}
